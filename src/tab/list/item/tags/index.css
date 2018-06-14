@@ -1,0 +1,9 @@
+.tags-container{
+    display: inline-block;
+    background: rgb(209, 127, 33);
+    font-family: "黑体";
+    color:white;
+    margin:1px 3px;
+    padding:0 1px;
+    border-radius: 2px;
+}

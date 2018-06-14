@@ -1,0 +1,10 @@
+.castPicture{
+    display: inline-block;
+    height: 180px;
+    margin:5px 10px;
+    -moz-border-radius: 75px / 100px; 
+    -webkit-border-radius: 75px / 100px; 
+    border-radius: 75px / 100px;
+    position:relative;
+    text-align: center;
+}

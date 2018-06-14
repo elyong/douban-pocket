@@ -1,0 +1,116 @@
+.item-container{
+    width:98%;
+    margin:10px auto;
+    font-size:12px;
+    border:1px solid rgb(214, 214, 214);
+}
+.picture-container{
+    display: inline-block;
+}
+.bigPicture-container{
+    text-align: center;
+}
+.picture{
+    width:65px;
+    height:100px;
+    margin:5px 2px;
+    cursor: pointer;
+}
+
+.detail-container{
+    margin:5px;
+    display: inline-block;
+    width:70%;
+    min-height:100px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.allDetail-container{
+    display: none;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    position: absolute;
+    overflow: auto;
+    background: white;
+}
+.allDetail-container.active{
+    display:block;
+    z-index:1;
+}
+.top-panel{
+    vertical-align: middle;
+    line-height: 50px;
+    background:rgb(82, 82, 255);
+    width:100%;
+    height:8%;
+    text-align: center;
+    color:white;
+    font-size:12px;
+    font-family: "黑体";
+}
+.back{
+    height:50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    position: absolute;
+    color:white;
+    font-size:13px;
+    font-family: "黑体";
+    cursor: pointer;
+}
+.moreDetail-container{
+    height:90%;
+    position: relative;
+    background:white;
+    z-index:1;
+}
+.superDetail-container{
+    margin:10px 5px;
+    display: inline-block;
+    width:65%;
+    vertical-align: top;
+}
+.bigPicture{
+    width:75px;
+    height:105px;
+    margin:10px 5px;
+}
+.bigBigPicture{
+    width:200px;
+    height:300px;
+    margin:15px auto;
+}
+.bookSummary p{
+    margin:0 5px;
+    word-wrap:break-word;  
+    word-break:break-all;  
+}
+.movieTitle{
+    font-size: 15px;
+}
+.movieCastsPicture{
+    position: relative;
+    text-align: center;
+}
+.allDetail-container{
+    overflow: auto;
+}
+.allDetail-container::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 5px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+.allDetail-container::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #535353;
+}
+.allDetail-container::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #EDEDED;
+}

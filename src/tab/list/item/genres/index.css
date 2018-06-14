@@ -1,0 +1,9 @@
+.genres-container{
+    display: inline-block;
+    background: rgb(223, 44, 21);
+    font-family: "黑体";
+    color:white;
+    margin:1px 3px;
+    padding:0 1px;
+    border-radius: 2px;
+}
